@@ -1,0 +1,129 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nick {
+    width: 200px;
+    border: 5px solid #EFB0C9;
+    border-radius: 50%;
+}
+
+#nick:hover {
+    border: 7px solid rgb(203, 4, 243);
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#bday-age:hover {
+    color: #EFB0C9;
+    background: linear-gradient(to right, rgb(203, 4, 243), rgb(252, 0, 126));
+    font-size: 25px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+#bday-date:hover {
+    color: #EFB0C9;
+    background: linear-gradient(to right, rgb(203, 4, 243), rgb(252, 0, 126));
+    font-size: 17px;
+}
+
+.gift-title {
+    margin: 40px 0 10px 0;
+}
+
+.gift-hint {
+    margin: 0 0 10px 0;
+}
+
+.gift-cover {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('images/gift-cover.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.gift-cover:hover {
+    background-image: url('images/happy.webp');
+    background-position: center;
+}
+
+.gift-cover-two {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-image: url('images/gift-cover.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.gift-cover-two:hover {
+    background-image: url('images/hot.webp');
+    background-position: center;
+}
+
+.gift-cover-three {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-image: url('images/gift-cover.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.gift-cover-three:hover {
+    background-image: url('images/genius.webp');
+    background-position: center;
+}
+
+.gift-cover-four {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-image: url('images/gift-cover.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.gift-cover-four:hover {
+    background-image: url('images/badass.webp');
+    background-position: center;
+}
+
+#footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: lighter;
+}
