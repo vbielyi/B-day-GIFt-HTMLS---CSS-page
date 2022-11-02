@@ -119,11 +119,3 @@ body {
     background-image: url('images/badass.webp');
     background-position: center;
 }
-
-#footer {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-size: 17px;
-    font-style: italic;
-    font-weight: lighter;
-}
